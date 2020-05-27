@@ -4,7 +4,6 @@ if [ -e ~/.ssh/id_rsa.pub ]
 then
 	echo -e "\e[1;36mSkipping ssh key generation (file exists).\e[0m"
 	echo
-	echo
 	sleep 3
 else
 	echo -e "\e[1;32mGenerating ssh key...\e[0m"
